@@ -4,6 +4,12 @@ This demo shows how to call online screenshot machine API using PHP.
 
 ## Installation
 
+a) using Composer - package manager for PHP
+```php
+php composer.phar screenshotmachine/screenshotmachine-php
+```
+b) or download source code directly from GitHub.com
+
 First, you need to create a free/premium account at [www.screenshotmachine.com](https://www.screenshotmachine.com) website. After registration, you will see your customer key in your user profile. Also secret phrase is maintained here. Please, use secret phrase always, when your API calls are called from publicly available websites.  
 
 Set-up your customer key and secret phrase (if needed) in the script:
@@ -33,8 +39,6 @@ More info about options can be found in our [API guide](https://www.screenshotma
 
 ```php
 <?php
-include('ScreenshotMachine.php');
-
 $customer_key = "PUT_YOUR_CUSTOMER_KEY_HERE";
 $secret_phrase = ""; //leave secret phrase empty, if not needed
 
@@ -61,8 +65,6 @@ If you need to store captured screenshot as an image, just call:
 
 ```php
 <?php
-include('ScreenshotMachine.php');
-
 $customer_key = "PUT_YOUR_CUSTOMER_KEY_HERE";
 $secret_phrase = ""; //leave secret phrase empty, if not needed
 
