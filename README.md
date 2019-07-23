@@ -6,7 +6,7 @@ This demo shows how to call online screenshot machine API using PHP.
 
 a) using Composer - package manager for PHP
 ```php
-php composer.phar screenshotmachine/screenshotmachine-php
+php composer.phar require screenshotmachine/screenshotmachine-php
 ```
 b) or download source code directly from GitHub.com
 
