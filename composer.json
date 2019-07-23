@@ -1,0 +1,17 @@
+{
+    "name": "screenshotmachine/screenshotmachine-php",
+    "version": "1.0.0",
+    "description": "Capture webpages using Screenshot machine API - online website capturing service",
+    "homepage": "https://github.com/screenshotmachine/screenshotmachine-php",
+    "keywords": [
+        "screenshotmachine",
+        "capture",
+        "website",
+        "webpage",
+        "screenshots",
+        "headless",
+        "thumbnails",
+        "api"
+    ],
+    "license": "MIT"
+}
