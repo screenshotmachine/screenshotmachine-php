@@ -15,6 +15,7 @@ $options['device'] = "desktop";
 $options['format'] = "png";
 $options['cacheLimit'] = "0";
 $options['delay'] = "200";
+$options['zoom'] = "100";
 
 $api_url = $machine->generate_api_url($options);
 
