@@ -1,17 +1,21 @@
 {
     "name": "screenshotmachine/screenshotmachine-php",
-    "version": "1.0.0",
-    "description": "Capture webpages using Screenshot machine API - online website capturing service",
+    "version": "2.0.0",
+    "description": "Captures website screenshot and converts website to PDF using Screenshot machine - online website screenshot generator and website to PDF converter.",
     "homepage": "https://github.com/screenshotmachine/screenshotmachine-php",
     "keywords": [
-        "screenshotmachine",
+        "screenshot",
+        "screenshots",
         "capture",
         "website",
         "webpage",
-        "screenshots",
         "headless",
+        "thumbnail",
         "thumbnails",
-        "api"
+        "htmltopdf",
+        "html2pdf",
+        "pdf",
+        "snapshot"
     ],
     "license": "MIT"
 }
